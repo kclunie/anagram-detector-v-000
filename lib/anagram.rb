@@ -8,8 +8,8 @@ def initialize(word)
 end
   
  def match(list)
-    list.select do |word|
-      word.split("").sort == @word.split("").sort
+    list.select do |eachword|
+      eachword.split("").sort == @word.split("").sort
   end
   end
 end
